@@ -3,3 +3,17 @@
     margin:0;
     box-sizing: border-box;
 }
+
+body{
+  background: linear-gradient(
+    180deg,
+    #0F172A 0%,
+    #172340 100%
+  );
+  min-height: 100vh;
+
+}
+#container{
+    width:360px;
+    height: 712px;
+}
