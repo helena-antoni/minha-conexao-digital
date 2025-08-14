@@ -17,8 +17,6 @@ Ele foi desenvolvido com base nos conceitos aprendidos no curso Discover da Rock
 Possui um Layout Responsivo, garantindo uma ótima experiência tanto em dispositivos móveis quanto em desktops.
 
 
-Possui um Layout Responsivo, para Dispositivos Móveis e para Desktops. 
-
 ## 🚀 Tecnologias
 
 As seguintes tecnologias foram utilizadas na construção deste projeto:
