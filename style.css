@@ -11,8 +11,8 @@ body *{
 body{
   background: linear-gradient(
     180deg,
-    #0F172A 0%,
-    #172340 100%
+    #0F172A 30%,
+    #222b41ff 100%
   );
   min-height: 100vh;
 }
