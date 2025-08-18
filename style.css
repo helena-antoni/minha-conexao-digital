@@ -18,8 +18,7 @@ body{
 }
 
 #container {
-  width: 360px;
-  border: 1px solid red; 
+  width: 360px; 
 
   margin:56px auto 0px;
 }
@@ -40,3 +39,33 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
+
+//links
+.links{
+  width:100%; 
+}
+
+.links ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column; 
+  gap:16px; 
+
+}  
+
+.links a{
+  display: flex;
+  justify-content: center;
+  height: 52px;
+  align-items: center;
+
+  background:rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+  --weblit-backdrop-filter: blur(4px);  
+  text-decoration: none;
+  font-weight: 500;
+}
+
