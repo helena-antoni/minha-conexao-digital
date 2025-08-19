@@ -10,11 +10,10 @@
 </p>
 
  ## 💻 Sobre o Projeto
-Bem-vindo(a) ao meu hub de links!
 
-Ele foi desenvolvido com base nos conceitos aprendidos no curso Discover da Rocketseat, mas com minha própria identidade visual e alguns ajustes personalizados. O objetivo é oferecer uma forma clara e responsiva para que você possa me encontrar online.
+Este projeto é um hub de links pessoais, desenvolvido para centralizar minhas principais plataformas de contato e redes sociais em um único lugar. O objetivo é proporcionar uma maneira prática e direta para que qualquer pessoa possa me encontrar online.
 
-Possui um Layout Responsivo, garantindo uma ótima experiência tanto em dispositivos móveis quanto em desktops.
+Ele foi concebido com uma identidade visual própria, refletindo meu estilo e profissionalismo, e é um resultado prático dos conceitos de desenvolvimento web aprendidos no curso Discover da Rocketseat.
 
 
 ## 🚀 Tecnologias
@@ -39,10 +38,10 @@ Você pode conferir o design original aqui: [DESSE LINK DO FIGMA](https://www.fi
 
 Curioso(a) para ver como ficou? Clique no link abaixo e explore meu hub de links!
 
-[🔗 ACESSE O PROJETO AQUI](https://helena-antoni.github.io/linktree/])
+[🔗 ACESSE O PROJETO AQUI](https://helena-antoni.github.io/minha-conexao-digital/])
 
 <p align="center">
-  <img alt="preview do projeto" src="./preview/preview.png" width="100%">
+  <img alt="preview do projeto" src="./assets/preview.png" width="100%">
 </p>
 
 ## :memo: Licença
