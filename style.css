@@ -21,6 +21,7 @@ body{
   width: 360px; 
 
   margin:56px auto 0px;
+  padding: 0 24px;
 }
 
 .profile {
@@ -67,5 +68,12 @@ body{
   --weblit-backdrop-filter: blur(4px);  
   text-decoration: none;
   font-weight: 500;
+  
+  transition: background-color 0.35s;
+}
+
+ul li a:hover{
+   background: rgba(255, 255, 255, 0.35);
+   border: 1px solid #fff;
 }
 
