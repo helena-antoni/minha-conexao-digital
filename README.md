@@ -10,7 +10,7 @@
 </p>
 
  ## 💻 Sobre o Projeto
-Bem-vindo(a) ao meu hub de links! Este projeto nasceu da minha necessidade de centralizar minhas principais conexões digitais em um só lugar, facilitando o acesso ao meu trabalho e redes sociais.
+Bem-vindo(a) ao meu hub de links!
 
 Ele foi desenvolvido com base nos conceitos aprendidos no curso Discover da Rocketseat, mas com minha própria identidade visual e alguns ajustes personalizados. O objetivo é oferecer uma forma clara e responsiva para que você possa me encontrar online.
 
@@ -30,7 +30,7 @@ As seguintes tecnologias foram utilizadas na construção deste projeto:
 
 O design inicial foi inspirado no protótipo do Figma fornecido pela Rocketseat. No entanto, fiz questão de adaptá-lo às minhas preferências estéticas, com a escolha de uma paleta de cores que reflete elegantes com azul escuro e ajustes finos na tipografia para uma melhor legibilidade.
 
-Você pode conferir o design original aqui: [DESSE LINK DO FIGMA](https://www.figma.com/community/file/1187422022288947321).
+Você pode conferir o design original aqui: [DESSE LINK DO FIGMA](https://www.figma.com/community/file/1187422022288947321/devlinks-projeto-discover).
 *É necessário ter conta no [Figma](https://figma.com) para acessá-lo.*
 
 
@@ -39,7 +39,7 @@ Você pode conferir o design original aqui: [DESSE LINK DO FIGMA](https://www.fi
 
 Curioso(a) para ver como ficou? Clique no link abaixo e explore meu hub de links!
 
-[🔗 ACESSE O PROJETO AQUI](https://[SEU_LINK_DE_DEPLOY])
+[🔗 ACESSE O PROJETO AQUI](https://helena-antoni.github.io/linktree/])
 
 <p align="center">
   <img alt="preview do projeto" src="./preview/preview.png" width="100%">
