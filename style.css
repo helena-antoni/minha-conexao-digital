@@ -3,27 +3,33 @@
     margin:0;
     box-sizing: border-box;
 }
-body *{
-    font-family: 'Inter', sans-serif;
-    color: #fff;
+html{
+  font-size: 62.5%;
 }
 
-body{
+body *{
+    font-family: 'Inter', sans-serif;
+    color: #fff; 
+}
+
+body{  
+  min-height: 100vh; 
+
+  display: flex;
+  flex-direction: column;  
+
   background: linear-gradient(
     180deg,
     #0F172A 30%,
     #222b41ff 100%
   );
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
 }
-
+ 
 #container {
-  width: 360px; 
-
-  margin:56px auto 0px;
-  padding: 0 24px;    flex-grow: 1; 
+  max-width:36rem; 
+  margin: 6rem auto;     
+  flex-grow: 1; 
 
 }
 
@@ -31,41 +37,40 @@ body{
     display: flex; 
     flex-direction: column;
     align-items: center; 
-    padding: 24px;
+    padding: 2.4rem;
 }
 
 .profile img {
-    width: 112px;
-   
+    width: 11.2rem;
 }
 
 .profile p {
     font-weight: 400;
-    margin-top:12px;
-    line-height: 24px;
+    margin-top:0.5rem;
+    line-height: 2.4rem;
+    font-size: 1.9rem;
 }
-
-//links
-.links{
-  width:100%; 
-}
-
+ 
 .links ul{
   list-style: none;
   display: flex;
   flex-direction: column; 
-  gap:16px; 
+  padding: 0 3.0rem;
+  gap:1.6rem; 
 
 }  
 
-.links a{
+.links a{ 
+  
+  height: 5.2rem;
+  font-size: 1.6rem; 
+  
   display: flex;
   justify-content: center;
-  height: 52px;
   align-items: center;
-
+  
   background:rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: .1rem solid rgba(255, 255, 255, 0.15);
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
@@ -77,33 +82,36 @@ body{
 }
 
 ul li a:hover{
-   background: rgba(255, 255, 255, 0.35);
-   border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.35);
+  border: 0.1rem solid #fff;
+  
 }
 
 a ion-icon{
-  width:24px;
-  height:24px;
-  padding:8px;
+  font-size: 1.6rem; 
+  padding:0 0.45rem;
 }
 
-footer{
-  
-    background-color: #a08ec2ff;
-    color: #050d1fff;
+.footer{   
+  width: 100%;
+  color: #e2dee9ff; 
     
-    text-align: center;
-    padding: 24px;
-    font-size: 16px;
-    text-weight:500; 
+  text-align: center;
+  padding: 5rem;
+  font-size: 1.4rem;
+  text-weight:500; 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        
-    gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+         
 }
   
-footer ion-icon{
-    color: #050d1fff; 
+.footer ion-icon{ 
+  color: #a08ec2ff; 
+}
+ 
+
+.footer span:hover{
+  color: #bba7dfff; 
 }
