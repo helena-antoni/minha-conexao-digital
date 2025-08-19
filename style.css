@@ -15,12 +15,16 @@ body{
     #222b41ff 100%
   );
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #container {
   width: 360px; 
 
   margin:56px auto 0px;
+  padding: 0 24px;    flex-grow: 1; 
+
 }
 
 .profile {
@@ -37,6 +41,7 @@ body{
 
 .profile p {
     font-weight: 400;
+    margin-top:12px;
     line-height: 24px;
 }
 
@@ -67,5 +72,38 @@ body{
   --weblit-backdrop-filter: blur(4px);  
   text-decoration: none;
   font-weight: 500;
+  
+  transition: background-color 0.35s;
 }
 
+ul li a:hover{
+   background: rgba(255, 255, 255, 0.35);
+   border: 1px solid #fff;
+}
+
+a ion-icon{
+  width:24px;
+  height:24px;
+  padding:8px;
+}
+
+footer{
+  
+    background-color: #a08ec2ff;
+    color: #050d1fff;
+    
+    text-align: center;
+    padding: 24px;
+    font-size: 16px;
+    text-weight:500; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    gap: 4px;
+}
+  
+footer ion-icon{
+    color: #050d1fff; 
+}
