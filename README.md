@@ -12,6 +12,7 @@ A aplicação "Minha Conexão Digital" foi desenvolvida para centralizar minhas 
 
 - HTML5
 - CSS3
+- Javascript
 - Git & GitHub
 
 
